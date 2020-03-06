@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <html>
     <head>
@@ -8,44 +9,68 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <style>
-        @media (min-width: 350px) {
+        body{
+	 background-color: #223;
+		}       
+
+	 @media (min-width: 350px) {
             h2.well{
                 font-size: 14px;
+		color: #acf;
+		background-color: #223
             }
          @media (min-width: 700px){
              h2.well{
-                 font-size: 32px;
+                 font-size: 28px;
+		 color: #acf;
+		 background-color: #223
              }
          }
-
-        }
+	
+	div.jumbotron{
+	padding-top: 20px;
+	padding-bottom:20px;
+	}
+		
+	#profile img{
+  	display: block;
+  	max-width:300px;
+  	max-height:200px;
+  	width: auto;
+  	height: auto;	
+	}
 </style>
         </head>
 <body>
-    <div class="jumbotron" style="background-color: #102e60">
+    <div class="jumbotron"  style="background-color: #102e60">
+	<a><span class="glyphicon glyphicon-profile"></span>Profile</a>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" >
         <div class="row">
-            <div class="col-md-4">
-            <div class="thumbnail">
-            <a href="https://lh3.googleusercontent.com/SxJZBQNdvNuGA11srjTCCqIgvtzMit2oKMfqA0ytHcBL8c3GyeeM6HDXfvI1EUX3xg8aDFAxdIsNzUUpivzfVFt7hdM1AmtXmcjdjamwSUXjeIf0XsMIRiQJAxfW7grfXcb3oAhfewN6S0OOF0ackbti_gW-9SfufeKgzc_w7yb6lVmhnDKVmBgQNbZAV1-WGe3mZKkLKJX8nFwEpt9c80g1vuPsRrmakqoMg3fM0U14Z7fDJC2Hh8Jt4FSwo9p67Gb5RmuDjpVqoeTIdOUL7TcUwCv9sYpFMBi8xuz7ptQT03gbzlG0x2IIyS5MR4OEAy1qgvLZ98CCGVtVgsLlfeJHcWGVLSnGzg_g8nKXhmbG2OULcu6ojNygRL8CPPVPv1os14U8f0CPso8Kyz_Uti4WWrOvtAAedcg4iNXHgQc9p64d7FwafXqmDwWb4-aCI6fwxIlnWHmLvPvE8Ou6zG1JfC4BpM5GqaTE0CcwIagdv55tC-P7eh3K30RCLu1Os8OIjqJK76_nUX6HwsS-b98qsdz3xIluDq5fTfOXmtB2goyoS96CFAuy2oIiybpZDK7wG5-qQ1Nf8M9vaUtwIvEiCeVNO-vLSe4uGIO_iq7BfH8CqcFn6iVOsDHmBE5530b0OtcEFC_qUqujwE5HDobp9egiAPylOI72YBeBtjy9kgs-DxCdvDE=w662-h881-no" >
-                <img alt="profile pic" src="https://lh3.googleusercontent.com/SxJZBQNdvNuGA11srjTCCqIgvtzMit2oKMfqA0ytHcBL8c3GyeeM6HDXfvI1EUX3xg8aDFAxdIsNzUUpivzfVFt7hdM1AmtXmcjdjamwSUXjeIf0XsMIRiQJAxfW7grfXcb3oAhfewN6S0OOF0ackbti_gW-9SfufeKgzc_w7yb6lVmhnDKVmBgQNbZAV1-WGe3mZKkLKJX8nFwEpt9c80g1vuPsRrmakqoMg3fM0U14Z7fDJC2Hh8Jt4FSwo9p67Gb5RmuDjpVqoeTIdOUL7TcUwCv9sYpFMBi8xuz7ptQT03gbzlG0x2IIyS5MR4OEAy1qgvLZ98CCGVtVgsLlfeJHcWGVLSnGzg_g8nKXhmbG2OULcu6ojNygRL8CPPVPv1os14U8f0CPso8Kyz_Uti4WWrOvtAAedcg4iNXHgQc9p64d7FwafXqmDwWb4-aCI6fwxIlnWHmLvPvE8Ou6zG1JfC4BpM5GqaTE0CcwIagdv55tC-P7eh3K30RCLu1Os8OIjqJK76_nUX6HwsS-b98qsdz3xIluDq5fTfOXmtB2goyoS96CFAuy2oIiybpZDK7wG5-qQ1Nf8M9vaUtwIvEiCeVNO-vLSe4uGIO_iq7BfH8CqcFn6iVOsDHmBE5530b0OtcEFC_qUqujwE5HDobp9egiAPylOI72YBeBtjy9kgs-DxCdvDE=w662-h881-no" >
+            <div class="col-md-1">
+            <a id="profile" target="_blank" href="https://lh3.googleusercontent.com/SxJZBQNdvNuGA11srjTCCqIgvtzMit2oKMfqA0ytHcBL8c3GyeeM6HDXfvI1EUX3xg8aDFAxdIsNzUUpivzfVFt7hdM1AmtXmcjdjamwSUXjeIf0XsMIRiQJAxfW7grfXcb3oAhfewN6S0OOF0ackbti_gW-9SfufeKgzc_w7yb6lVmhnDKVmBgQNbZAV1-WGe3mZKkLKJX8nFwEpt9c80g1vuPsRrmakqoMg3fM0U14Z7fDJC2Hh8Jt4FSwo9p67Gb5RmuDjpVqoeTIdOUL7TcUwCv9sYpFMBi8xuz7ptQT03gbzlG0x2IIyS5MR4OEAy1qgvLZ98CCGVtVgsLlfeJHcWGVLSnGzg_g8nKXhmbG2OULcu6ojNygRL8CPPVPv1os14U8f0CPso8Kyz_Uti4WWrOvtAAedcg4iNXHgQc9p64d7FwafXqmDwWb4-aCI6fwxIlnWHmLvPvE8Ou6zG1JfC4BpM5GqaTE0CcwIagdv55tC-P7eh3K30RCLu1Os8OIjqJK76_nUX6HwsS-b98qsdz3xIluDq5fTfOXmtB2goyoS96CFAuy2oIiybpZDK7wG5-qQ1Nf8M9vaUtwIvEiCeVNO-vLSe4uGIO_iq7BfH8CqcFn6iVOsDHmBE5530b0OtcEFC_qUqujwE5HDobp9egiAPylOI72YBeBtjy9kgs-DxCdvDE=w662-h881-no" >
+                <img alt="profile pic" class="thumbnail" src="https://lh3.googleusercontent.com/SxJZBQNdvNuGA11srjTCCqIgvtzMit2oKMfqA0ytHcBL8c3GyeeM6HDXfvI1EUX3xg8aDFAxdIsNzUUpivzfVFt7hdM1AmtXmcjdjamwSUXjeIf0XsMIRiQJAxfW7grfXcb3oAhfewN6S0OOF0ackbti_gW-9SfufeKgzc_w7yb6lVmhnDKVmBgQNbZAV1-WGe3mZKkLKJX8nFwEpt9c80g1vuPsRrmakqoMg3fM0U14Z7fDJC2Hh8Jt4FSwo9p67Gb5RmuDjpVqoeTIdOUL7TcUwCv9sYpFMBi8xuz7ptQT03gbzlG0x2IIyS5MR4OEAy1qgvLZ98CCGVtVgsLlfeJHcWGVLSnGzg_g8nKXhmbG2OULcu6ojNygRL8CPPVPv1os14U8f0CPso8Kyz_Uti4WWrOvtAAedcg4iNXHgQc9p64d7FwafXqmDwWb4-aCI6fwxIlnWHmLvPvE8Ou6zG1JfC4BpM5GqaTE0CcwIagdv55tC-P7eh3K30RCLu1Os8OIjqJK76_nUX6HwsS-b98qsdz3xIluDq5fTfOXmtB2goyoS96CFAuy2oIiybpZDK7wG5-qQ1Nf8M9vaUtwIvEiCeVNO-vLSe4uGIO_iq7BfH8CqcFn6iVOsDHmBE5530b0OtcEFC_qUqujwE5HDobp9egiAPylOI72YBeBtjy9kgs-DxCdvDE=w662-h881-no" >
             </a>
             </div>
-            </div>
-            <div class="col-md-8" style="padding-left: 0;">
+            <div class="col-md-10">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-7">
-                            <h2 class="well" style="background-color: #223;color: #acf;">Name: Teja Devarapalli</h2>
+                        <div class="col-md-4">
+                            <h2 class="well"><span class="glyphicon glyphicon-user"></span> Teja Devarapalli</h2>
                         </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
+			   <div class="col-md-6">
+				<h2 class="well"><span class="glyphicon glyphicon-education"></span> Master of Computer Science</h2>
+			<div>
+	            </div>
+	              <div class="row">
+			<div class="col">
+			<h2 class="well"><span class="glphicon glyphicon-job"></span>Full Stack Software Developer, Software Developer, Software Engineer,Data Engineer</h2> 
+            		</div>
+		      </div>
+       		 </div>
+  	  </div>
+	</div>
     </div>
-
-
+</div>
 </body>
 </html>
