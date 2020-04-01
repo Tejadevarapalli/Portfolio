@@ -16,6 +16,6 @@ export class ProfileComponent implements OnInit {
     this.email = 'tejadevarapalli47@gmail.com';
     this.FullName = 'Teja Devarapalli';
     this.Education = 'MS in Computer Science';
-    this.Job = 'Full Stack Software Developer, Software Developer, Software Engineer, Data Engineer';
+    this.Job = 'Full Stack Software Developer, Software Engineer, Data Engineer';
   }
 }
