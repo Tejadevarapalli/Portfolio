@@ -8,6 +8,7 @@ import { AcademicComponent } from './academic/academic.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { TechnologiesComponent } from './technologies/technologies.component';
 import { CertificatesComponent } from './certificates/certificates.component';
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { CertificatesComponent } from './certificates/certificates.component';
     CertificatesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
