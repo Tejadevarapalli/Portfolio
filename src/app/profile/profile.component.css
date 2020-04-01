@@ -1,0 +1,56 @@
+a.top{
+  font-size:20px;
+  color: rgba(216, 193, 193, 0.62);
+  margin-left:30px;
+}
+.jumbotron a{
+  color: rgba(216, 193, 193, 0.62);
+  font-size: 12px;
+}
+
+
+@media (min-width: 350px) {
+  h2.well{
+    font-size: 14px;
+    color: #acf;
+    margin-top:5px;
+    margin-bottom:5px;
+    background-color: #223
+  }
+  a.top1{
+    font-size:14px;
+    color: rgba(216, 193, 193, 0.62);
+    margin-left:20px;
+  }
+
+}
+@media (min-width: 700px){
+  h2.well{
+    font-size: 28px;
+    color: #acf;
+    background-color: #223
+  }
+}
+
+@media (min-width:900px) and (max-width:1860px)
+{
+  #second{
+    margin-left:100px;
+  }
+}
+div.jumbotron{
+  padding-top: 20px;
+  padding-bottom:20px;
+}
+
+#profile img{
+  display: block;
+  margin-left:10px;
+  max-width:350px;
+  max-height:200px;
+  width: auto;
+  height: auto;
+}
+
+
+

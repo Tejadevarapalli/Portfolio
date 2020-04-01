@@ -1,0 +1,63 @@
+
+img{
+  max-width: 150px;
+  max-height:150px;
+  width:200px;
+  height: 200px;
+
+}
+
+td{
+  text-align: center;
+}
+
+table {
+width:100%;
+  }
+
+div.container{
+
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px
+
+}
+
+.table-hover-cells > tbody > tr > th:hover,
+.table-hover-cells > tbody > tr > td:hover {
+  background-color: #223;
+}
+
+.table-hover-cells > tbody > tr > th.active:hover,
+.table-hover-cells > tbody > tr > td.active:hover,
+.table-hover-cells > tbody > tr.active > th:hover,
+.table-hover-cells > tbody > tr.active > td:hover {
+  background-color: #223;
+}
+
+.table-hover.table-hover-cells > tbody > tr:hover > th:hover,
+.table-hover.table-hover-cells > tbody > tr:hover > td:hover {
+  background-color: #223;
+}
+
+.table-hover.table-hover-cells > tbody > tr.active:hover > th:hover,
+.table-hover.table-hover-cells > tbody > tr.active:hover > td:hover {
+  background-color: #223;
+}
+
+.zoom {
+  background-color: #223;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  /*margin: 0 auto;*/
+  margin-top: 30px;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3);
+}
+
