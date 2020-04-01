@@ -1,7 +1,7 @@
 a.top{
   font-size:20px;
   color: rgba(216, 193, 193, 0.62);
-  margin-left:30px;
+  padding: 5px;
 }
 .jumbotron a{
   color: rgba(216, 193, 193, 0.62);
@@ -21,6 +21,10 @@ a.top{
     font-size:14px;
     color: rgba(216, 193, 193, 0.62);
     margin-left:20px;
+  }
+
+  .icon{
+    padding: 5px;
   }
 
 }
@@ -52,5 +56,38 @@ div.jumbotron{
   height: auto;
 }
 
+.icon{
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
 
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
 
